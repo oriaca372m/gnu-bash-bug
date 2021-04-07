@@ -97,4 +97,5 @@ Linux pc03arch 5.11.11-zen1-1-zen #1 ZEN SMP PREEMPT Tue, 30 Mar 2021 14:10:21 +
 
 ## 再現しない環境
 
+- 再現する1の環境のdocker上のubuntu 21.04
 - 再現する2の環境のdocker上のubuntu 21.04
