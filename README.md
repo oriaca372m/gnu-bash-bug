@@ -1,6 +1,8 @@
 # GNU bash 5.1.4(1) がマルチバイト文字を持つファイルにリダイレクトすると挙動がおかしくる?
 
 ## バージョンと環境
+Arch Linux
+
 ``` sh
 $ uname -a
 Linux pc03arch 5.11.11-zen1-1-zen #1 ZEN SMP PREEMPT Tue, 30 Mar 2021 14:10:21 +0000 x86_64 GNU/Linux
@@ -12,6 +14,10 @@ Copyright (C) 2020 Free Software Foundation, Inc.
 
 This is free software; you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
+
+# LANG=C だと再現しない
+$ echo $LANG
+ja_JP.utf8
 ```
 
 ## バグの内容と再現方法
